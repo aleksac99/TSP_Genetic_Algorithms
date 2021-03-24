@@ -1,18 +1,16 @@
 #ifndef HELP
 #define HELP
 
+#include <string>
+#include <vector>
+#include "jedinka.h"
+
 #define brGradova 7 // Broj gradova u test primeru
 #define VELPOP 20 // Velicina populacije u test primeru
 #define brGeneracija 15 // Broj generacija u test primeru
-#include <string>
-#include <vector>
 
-// Model jedinke
-struct Jedinka
-{
-	std::string genotip;
-	int prilagodjenost;
-};
+
+// Fajl sa definisanim pomocnim funkcijama
 
 int rng(int a, int b);
 

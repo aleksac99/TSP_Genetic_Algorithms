@@ -73,5 +73,5 @@ int prilagodjenost(std::string genotip, std::vector<std::vector<int>> udaljenost
 //Poredjenje prilagodjenosti dve jedinke
 bool manjaPrilagodjenost(struct Jedinka j1, struct Jedinka j2)
 {
-	return j1.prilagodjenost < j2.prilagodjenost;
+	return j1.getPrilagodjenost() < j2.getPrilagodjenost();
 }
