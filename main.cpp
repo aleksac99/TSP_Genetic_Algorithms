@@ -7,7 +7,7 @@
 
 int main()
 {
-    srand(time(0));
+    srand(int(time(0)));
     int k = -1; 
     while (k != 0 && k != 1)
     {

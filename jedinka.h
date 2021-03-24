@@ -13,8 +13,8 @@ public:
 	void setGenotip(std::string s);
 
 private:
-	std::string genotip;
-	int prilagodjenost;
+	std::string genotip = "";
+	int prilagodjenost = 0;
 };
 
 #endif
